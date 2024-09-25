@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
       " ",
       "Seeking a challenging role where my technical expertise and leadership abilities can make an impact in a dynamic environment.",
   " ",
-  "Full resume ➤ <a href='https://linkedin.com/in/GregLeland' target='_blank'>Here</a>"
+  "Full resume ➤ <a href='resume/Greg_Leland_Analytics_CV_2024.pdf' target='_blank'>Here</a>"
       // Continue adding your resume lines here
     ];
   
