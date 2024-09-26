@@ -28,7 +28,7 @@ const resumeLines = [
   "Loading user bio . . .",
   " ",
   " ",
-  "➤ Seasoned Analyst with extensive experience in data analysis, marketing analytics, data engineering, and visualization across gaming, product, streaming video, and entertainment sectors.",
+  "➤ Seasoned data expert with extensive experience in data analysis, marketing analytics, data engineering, and visualization across gaming, product, streaming video, and entertainment sectors.",
   " ",
   "➤ Over a decade of expertise in providing actionable insights that have optimized user engagement, marketing campaign performance, and revenue growth.",
   " ",
