@@ -17,7 +17,7 @@ setInterval(() => {
 
 // Typing Effect Code
 const resumeLines = [
-  "Initializing data_wizard.bio . . .",
+  "Initializing data_wizard.bio...",
   " ",
   " ",
   "➤ Username: Greg Leland",
@@ -25,7 +25,7 @@ const resumeLines = [
   "➤ User Links: <a href='https://github.com/GregLeland' target='_blank'>GitHub</a> | <a href='https://linkedin.com/in/GregLeland' target='_blank'>LinkedIn</a>",
   " ",
   " ",
-  "Loading user bio . . .",
+  "Loading user bio...",
   " ",
   " ",
   "➤ Seasoned data expert with extensive experience in data analysis, marketing analytics, data engineering, and visualization across gaming, product, streaming video, and entertainment sectors.",
@@ -43,7 +43,7 @@ const resumeLines = [
   " ",
   " ",
   "Process finished successfully.",
-  "Program terminating . . .",
+  "Program terminating...",
   ">"
 ];
 
