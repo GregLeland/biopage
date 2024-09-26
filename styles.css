@@ -40,6 +40,10 @@ body {
   background-color: rgba(0, 50, 0, 0.3);
   height: 200vh;
   transform-origin: bottom center;
+  box-shadow: 
+    0 0 5px rgba(0, 50, 0, 0.2),  /* Lighter glow closer */
+    0 0 10px rgba(0, 50, 0, 0.2), /* Mid glow */
+    0 0 15px rgba(0, 50, 0, 0.1); /* Fainter glow farther out */
 }
 
 /* Horizontal Lines */
@@ -48,6 +52,10 @@ body {
   width: 100vw;
   height: 4px;
   background-color: rgba(0, 50, 0, 0.3);
+  box-shadow: 
+    0 0 5px rgba(0, 50, 0, 0.2),  /* Lighter glow closer */
+    0 0 10px rgba(0, 50, 0, 0.2), /* Mid glow */
+    0 0 15px rgba(0, 50, 0, 0.1); /* Fainter glow farther out */
 }
 
 /* Animate the Horizontal Lines Moving Upwards */
@@ -88,10 +96,10 @@ body {
   word-wrap: break-word;
   overflow-wrap: break-word;
   font-family: 'Press Start 2P', system-ui !important;
-  color: #33FF33;
+  color: rgba(102, 255, 102, 0.9);
   text-shadow:
-    0 0 2px #33FF33,
-    0 0 3px #33FF33; /* Reduced glow for a more subtle effect */
+    0 0 2px rgba(102, 255, 102, 0.9),
+    0 0 3px rgba(102, 255, 102, 0.9); /* Reduced glow for a more subtle effect */
   animation: textFlicker 2s infinite;
 }
 
@@ -107,7 +115,7 @@ body {
 
 /* Hyperlink Styles */
 .resume-container a {
-  color: #33FF33;
+  color: rgba(102, 255, 102, 0.9);
   text-decoration: underline;
 }
 
@@ -117,7 +125,7 @@ body {
   display: inline-block;
   width: 10px;
   height: 1.2em;
-  background-color: #33FF33;
+  background-color: rgba(102, 255, 102, 0.9);
   margin-left: 5px;
   animation: blink 1s steps(1) infinite;
 }
