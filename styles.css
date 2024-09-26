@@ -51,7 +51,7 @@ body {
   position: absolute;
   width: 100vw;
   height: 8px;
-  background-color: rgba(102, 255, 102, 0.2);
+  background-color: rgba(102, 255, 102, 0.1);
   box-shadow: 
     0 0 5px rgba(102, 255, 102, 0.1),  /* Lighter glow closer */
     0 0 10px rgba(102, 255, 102, 0.1), /* Mid glow */
