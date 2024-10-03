@@ -105,7 +105,7 @@ body {
 
 /* Resume Container */
 .resume-container {
-  position: fixed;
+  position: fixed; /* Retain fixed positioning */
   top: 10%;
   left: 50%;
   transform: translateX(-50%);
@@ -118,8 +118,11 @@ body {
   line-height: 1.5em;
   letter-spacing: 0.05em;
   z-index: 5;
-  
-  /* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+
+  /* Prevent content from snapping back to top */
+  overflow-anchor: none;
+
+  /* Hide scrollbar */
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE and Edge */
 }
