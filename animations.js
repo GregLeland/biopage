@@ -32,7 +32,7 @@ const resumeLines = [
   " ",
   "➤ Over a decade of expertise in providing actionable insights that have optimized user engagement, marketing campaign performance, and revenue growth.",
   " ",
-  "➤ Proven leadership in managing cross-functional teams, driving complex projects, and leveraging data-driven strategies to support product development and marketing initiatives.",
+  "➤ Proven leadership in managing cross-functional teams, driving complex projects, building data pipelines, and leveraging data-driven strategies to support product development and marketing initiatives.",
   " ",
   "➤ Proficient in SQL, Python, statistical modeling, A/B & multivariate testing, and advanced data visualization tools.",
   " ",
@@ -49,7 +49,7 @@ const resumeLines = [
 
 let lineIndex = 0;
 let content = '';
-const typingSpeed = 30;
+const typingSpeed = 10;
 const lineDelay = 500;
 const resumeElement = document.getElementById('resume-text');
 
