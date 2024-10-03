@@ -53,14 +53,6 @@ const typingSpeed = 10;
 const lineDelay = 500;
 const resumeElement = document.getElementById('resume-text');
 
-// Function to automatically scroll to the bottom of the page
-function autoScrollToBottom() {
-  window.scrollTo({
-    top: document.body.scrollHeight,  // Scroll to the bottom of the page
-    behavior: 'smooth'  // Add smooth scrolling
-  });
-}
-
 function typeLine() {
   if (lineIndex < resumeLines.length) {
     const line = resumeLines[lineIndex];
@@ -83,10 +75,6 @@ function processTokens(tokens, tokenIndex, callback) {
     if (token.startsWith('<') && token.endsWith('>')) {
       content += token;
       resumeElement.innerHTML = content;
-
-      // Scroll to the bottom after updating content
-      autoScrollToBottom();
-
       setTimeout(() => {
         processTokens(tokens, tokenIndex + 1, callback);
       }, typingSpeed);
@@ -104,10 +92,6 @@ function typeText(text, charIndex, callback) {
   if (charIndex < text.length) {
     content += text.charAt(charIndex);
     resumeElement.innerHTML = content;
-
-    // Scroll to the bottom after updating content
-    autoScrollToBottom();
-
     setTimeout(() => {
       typeText(text, charIndex + 1, callback);
     }, typingSpeed);
